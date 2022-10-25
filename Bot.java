@@ -20,12 +20,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
-import java.util.Scanner;
 
-//ДЕЛА НАСУЩНЫЕ: скачать картинку в норм форме(чтобы читалось)
 public class Bot extends TelegramLongPollingBot{
-    final private String BOT_TOKEN = "5786660108:AAEkQ39HCI0htGNUhu5l_XXEmBRvirPJHTY";
-    final private String BOT_NAME = "ConvertBot";
+    final private String BOT_TOKEN;
+    final private String BOT_NAME;
 
     @Override
     public String getBotUsername() {
